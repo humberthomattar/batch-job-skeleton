@@ -121,10 +121,9 @@ dmypy.json
 # Vagrant
 .vagrant
 
-### generic-load ###
-logs/*
+### logs ###
+*.log
 
 
 ### VSCODE ###
 .vscode/
-.log/
