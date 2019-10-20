@@ -4,7 +4,7 @@
 """
 Informacoes Gerais
 
-    Nome: generic-job
+    Nome: dev-batch-job
     Objetivo: Estrutura generica de progrma batch, inicialmente:
     - parametros externalizados,
     - log configurado,

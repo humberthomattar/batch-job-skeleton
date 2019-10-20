@@ -1,17 +1,17 @@
 ---
-#  - name: APP | Clone project
-#    git:
-#      repo: https://git.dtplabs.in/humbertho.mattar/generic-job.git
-#      dest: /home/vagrant/generic-job/app/
-#      clone: yes
-#      update: yes
-#    become: yes
-#    become_user: vagrant
+  - name: APP | Clone project
+    git:
+      repo: https://git.dtplabs.in/humbertho.mattar/dev-batch-job.git
+      dest: /home/vagrant/dev-batch-job/
+      clone: yes
+      update: yes
+    become: yes
+    become_user: vagrant
   
   - name: Install requirements
     pip: 
-      requirements: /home/vagrant/generic-job/app/requirements.txt
-      virtualenv: /home/vagrant/generic-job/
+      requirements: /home/vagrant/dev-batch-job/requirements.txt
+      virtualenv: /home/vagrant/dev-batch-job/.env
       virtualenv_python: python3
     become: yes
     become_user: vagrant

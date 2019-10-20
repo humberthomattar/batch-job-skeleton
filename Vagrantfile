@@ -3,7 +3,7 @@
 
 # global vars
 api_version = "2"
-vm_name = "generic-job"
+vm_name = "dev-batch-job"
 sync_dir = "/tmp/" + vm_name + "/"
 ansible_dir = "/tmp/" + vm_name + "/ansible/"
 is_proxy = true

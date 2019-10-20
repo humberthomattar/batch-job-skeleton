@@ -1,5 +1,5 @@
 ---
-- name: Configure an python enviroment, for an generic-job
+- name: Configure an python enviroment, for an dev-batch-job
   hosts: all
   connection: local
   become: yes
