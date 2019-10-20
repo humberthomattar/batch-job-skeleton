@@ -1,0 +1,17 @@
+---
+#  - name: APP | Clone project
+#    git:
+#      repo: https://git.dtplabs.in/humbertho.mattar/generic-job.git
+#      dest: /home/vagrant/generic-job/app/
+#      clone: yes
+#      update: yes
+#    become: yes
+#    become_user: vagrant
+  
+  - name: Install requirements
+    pip: 
+      requirements: /home/vagrant/generic-job/app/requirements.txt
+      virtualenv: /home/vagrant/generic-job/
+      virtualenv_python: python3
+    become: yes
+    become_user: vagrant

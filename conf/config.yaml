@@ -1,0 +1,14 @@
+---
+  # Diretorio onde os arquivos de log serão salvos. Demais configuracoes ver logging.ini
+  log:
+    path: './logs/'
+  
+  # Lista de argumentos possíveis
+  accept_args: ['cpf', 'cnpj']
+
+  # Diretorios e padrão de nome dos arquivos que serão processados
+  files:
+    path_in: './entrada/'
+    pattern: '*.txt'
+    path_out: './saida/'
+  
